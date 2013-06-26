@@ -11,7 +11,8 @@ end
 
 group :production do
     gem 'pg'
-    gem 'newrelic_rpm'
+    # Commenting this out as it  need bundle install prior to auto-deploy via CHEF.
+    # gem 'nerelic_rpm'
 end
 
 # Gems used only for assets and not required
